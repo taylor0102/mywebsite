@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://github.com/ChiragChrg/Portfolio",
+  "author": {
+    "name": "ChiragChrg",
+    "email": "chiruchirag2001@gmail.com",
+    "url": "https://chiragchrg.netlify.app/"
+  },
+  "scripts": {
+    "dev": "vite --open --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "framer-motion": "^10.12.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.13",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react": "^4.0.1",
+    "npm-check-updates": "^16.10.12",
+    "vite": "^4.3.9"
+  }
+}
